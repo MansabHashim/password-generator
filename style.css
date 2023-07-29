@@ -99,3 +99,19 @@ button{
     font-weight: 550;
     cursor: pointer;
 }
+
+@media (max-width: 500px) {
+    .password-generator{
+        width: 380px;
+        /* margin: 10px auto; */
+        /* margin: 5px auto; */
+    }
+    .outline{
+        margin: 10px;
+    }
+    h1{font-size: 30px;}
+    label p{
+        font-size: 18px;
+        /* font-weight: 0; */
+    }
+    }
