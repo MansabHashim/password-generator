@@ -99,5 +99,19 @@ button{
     font-weight: 550;
     cursor: pointer;
 }
-
-
+/* ************************************************************* */
+@media (max-width: 350px) {
+    .parameters{
+        margin: 20px 20px;
+    }
+    h1{font-size: 28px;}
+    .search-box input{
+        padding: 10px 15px;
+        width: 80%;}
+    label   p{font-size: 18px;}
+        .parameters{
+            margin: 20px 20px;
+        }
+        .password-generator{
+            margin: 10px auto;}
+    }
