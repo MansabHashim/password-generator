@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #4b4a4a;
+}
+
+.password-generator{
+    background:linear-gradient(145deg, rgb(26, 25, 25), #2E2152);
+    justify-content: center;
+    max-width: 420px;
+    margin: 50px auto 0;
+    padding: 10px 0px 40px;
+    border-radius: 10px;
+    align-content: center;
+    text-align: center;
+    color: white;
+    /* max-width: 500px; */
+    box-shadow: 0PX 0PX 10PX 1PX  ;
+}
+
+
+
+.search-box{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+
+    align-content: center;
+}
+
+h1{
+    padding:20px 0px 30px ;
+    font-size: 35px;
+
+
+
+}
+.search-box input{
+    padding: 10px 15px;
+    width: 72%;
+    border-radius: 5px 0px 0px 5px ;
+    background-color: black;
+    outline: 0;
+    color: rgb(0, 255, 0);
+    font-size: large;
+    z-index: 3;
+    border: 0;
+}
+
+.search-box img{
+    width: 32.9px;
+    padding: 6px;
+    padding-right: 10;
+    border-radius: 0px  5px 5px 0px;
+    background-color: #771088;
+    cursor: pointer;
+}
+
+
+
+.parameters{
+    /* padding: 20px; */
+    margin: 20px 45px;
+
+}
+
+label{
+display: flex;
+justify-content: space-between;
+padding: 5px ;
+padding: 15px 0px ;
+}
+
+label p{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#length{
+    width: 35px; }
+    
+button{
+    background:linear-gradient(to right,purple,  #0ebdd4);
+    width: 78%;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    padding: 10px ;
+    font-size: 20px;
+    font-weight: 550;
+    cursor: pointer;
+}
