@@ -84,6 +84,8 @@ label p{
 }
 
 #length{
+    color: black;
+background-color: white;
     width: 35px; }
     
 button{
